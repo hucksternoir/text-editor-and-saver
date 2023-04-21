@@ -29,6 +29,8 @@ function App() {
           backgroundColor: "inherit",
           color: "#999",
           borderRadius: "10px",
+          width: "100%",
+          marginTop: "30px",
         }}
       />
       <EditTextarea
@@ -37,9 +39,10 @@ function App() {
         style={{
           border: "1px solid #fff",
           borderRadius: "10px",
-          marginTop: "60px",
+          marginTop: "40px",
           backgroundColor: "inherit",
           color: "#999",
+          width: "100%",
         }}
         onChange={(e) => setTextArea(e.target.value)}
         value={textArea}

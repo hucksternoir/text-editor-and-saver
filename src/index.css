@@ -26,7 +26,11 @@ input[type="button"]:hover {
 }
 
 #container {
-  margin-top: 5vh;
+  margin-top: 1px;
+  display: grid;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #btnSave {
@@ -39,5 +43,7 @@ h1 {
   font-family: "Oswald", sans-serif;
   font-size: 3.2rem;
   letter-spacing: 0.9rem;
-  margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
 }
