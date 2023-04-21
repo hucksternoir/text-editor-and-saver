@@ -34,7 +34,7 @@ function App() {
         }}
       />
       <EditTextarea
-        rows={12}
+        rows={10}
         placeholder="Type your text here"
         style={{
           border: "1px solid #fff",
